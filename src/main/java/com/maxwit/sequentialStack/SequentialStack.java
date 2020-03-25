@@ -4,7 +4,6 @@ import com.maxwit.sequentialList.SequentialList;
 
 public class SequentialStack<T> extends SequentialList<T>{
     public SequentialStack() {
-//        super();
     }
 
     public void push(T data) {
