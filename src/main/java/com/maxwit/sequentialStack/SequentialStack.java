@@ -18,7 +18,7 @@ public class SequentialStack<T> extends SequentialList<T>{
         return remove(size-1);
     }
 
-    public T getTop() {
+    public T peek() {
         return get(size-1);
     }
 }
